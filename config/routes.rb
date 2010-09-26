@@ -1,4 +1,8 @@
 Oauthdemo::Application.routes.draw do
+  get "authorization/new"
+
+  get "authorization/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
